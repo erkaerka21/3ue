@@ -1,9 +1,9 @@
-const HeroIntroImg = () => {
+const AboutMeAside = () => {
   return (
-    <div style={{ width: "300px", height: "360px" }} className="pt-14">
+    <div style={{ width: "330px", height: "360px" }} className="mt-10">
       <div
         className="bg-slate-200"
-        style={{ position: "relative", width: "260px", height: "300px" }}
+        style={{ position: "relative", width: "300px", height: "340px" }}
       >
         <img
           src="/Erdenesuren.jpg"
@@ -11,14 +11,14 @@ const HeroIntroImg = () => {
           className="object-cover border-solid border-white border-8"
           style={{
             position: "absolute",
-            width: "260px",
-            height: "300px",
+            width: "300px",
+            height: "340px",
             bottom: "25px",
-            right: "25px",
+            left: "25px",
           }}
         />
       </div>
     </div>
   );
 };
-export default HeroIntroImg;
+export default AboutMeAside;
