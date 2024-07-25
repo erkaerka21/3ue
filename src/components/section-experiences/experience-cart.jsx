@@ -1,20 +1,19 @@
-const ExperiencesCart = () => {
+const ExperiencesCart = ({ companyLogo, title, jobRoles, date }) => {
   return (
-    <div className="flex justify-between h-56 w-[896px] bg-white drop-shadow-2xl rounded-lg mb-3">
+    <div className="flex justify-between w-[896px] p-5 bg-white drop-shadow-2xl rounded-lg mb-10">
       <div className="flex-1">
-        <img src="/experiences-logo1.png" alt="logo1" />
+        <img src={companyLogo} alt="logo1" />
       </div>
       <div className="flex-1">
-        <h1 className="font-semibold text-2xl">Sr. Frontend Developer</h1>
+        <h1 className="font-semibold text-2xl">{title}</h1>
         <ul className="list-disc ml-6 text-gray-600">
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
-          <li>Sed quis justo ac magna.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          {jobRoles.map((role) => (
+            <li>{role}</li>
+          ))}
         </ul>
       </div>
       <div className="flex-1 text-right">
-        <p>2024 оны 4 сараас одоог хүртэл</p>
+        <p>{date}</p>
       </div>
     </div>
   );
