@@ -15,6 +15,7 @@ const WorkSection = () => {
           title={title}
           paragraph={paragraph}
           workSubs={workSubs}
+          className=""
         />
       ))}
     </div>

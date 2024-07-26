@@ -7,7 +7,7 @@ const FeedbackSection = () => {
     console.log("Сэтгэгдэл", text);
   };
   return (
-    <div>
+    <div className="flex flex-col justify-start items-center mt-12 mb-8">
       <label for="email">Цахим шуудан</label>
       <br />
       <input

@@ -2,10 +2,10 @@ import { FiExternalLink } from "react-icons/fi";
 
 const WorkCart = ({ srcWorkPic, title, paragraph, workSubs }) => {
   return (
-    <div className="w-[70vw] flex">
-      <div className="w-6/12">
-        <div>
-          <img alt="zurag" src={srcWorkPic} />
+    <div className="w-[70vw] flex mb-12 rounded-xl border-solid border-8 border-black">
+      <div className="w-6/12 p-12 bg-transparent bg-slate-600 flex justify-center items-center rounded-xl">
+        <div className="w-full">
+          <img alt="zurag" src={srcWorkPic} className="object-contain" />
         </div>
       </div>
       <div className="w-6/12 p-12">

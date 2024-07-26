@@ -1,3 +1,5 @@
+import CopyRightSec from "@/components/copyright-section/cpoy-right-sec";
+import GetTouchSec from "@/components/getTouch-section/getTouch-section";
 import Hero from "@/components/hero/hero";
 import SectionAboutme from "@/components/section-aboutme/section-aboutme";
 import SectionExperiences from "@/components/section-experiences/section-experience-total";
@@ -13,7 +15,9 @@ export default function Home() {
       <SectionSkill />
       <SectionExperiences />
       <WorkSection />
+      <GetTouchSec />
       <FeedbackSection />
+      <CopyRightSec />
     </main>
   );
 }
