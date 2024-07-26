@@ -1,4 +1,6 @@
 import TitlesContainer from "../section-titles-container";
+import WorkCart from "./workCart";
+import workCartDatas from "./workCartDatas";
 
 const WorkSection = () => {
   return (
@@ -7,6 +9,14 @@ const WorkSection = () => {
         sTitle={"Work"}
         sP={"Some of the noteworthy projects I have built:"}
       />
+      {workCartDatas.map(({ srcWorkPic, title, paragraph, workSubs }) => (
+        <WorkCart
+          srcWorkPic={srcWorkPic}
+          title={title}
+          paragraph={paragraph}
+          workSubs={workSubs}
+        />
+      ))}
     </div>
   );
 };
