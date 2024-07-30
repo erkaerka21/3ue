@@ -4,7 +4,8 @@ import ExperiencesCart from "./experience-cart";
 
 const SectionExperiences = () => {
   return (
-    <div className="px-20 py-24 bg-slate-50 flex-col">
+    <div className="px-20 py-24 bg-slate-50 flex-col" id="experiences">
+      <labelTag label="experiences" />
       <TitlesContainer
         sTitle={"Experience"}
         sP={"Here is a quick summary of my most recent experiences:"}

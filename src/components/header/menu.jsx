@@ -1,8 +1,9 @@
 const menuList = [
   { label: "Home", link: "/" },
-  { label: "About", link: "/#about" },
-  { label: "Work", link: "/#work" },
-  { label: "Contact", link: "/#contact" },
+  { label: "About", link: "#about" },
+  { label: "Experiences", link: "#experiences" },
+  { label: "Work", link: "#work" },
+  { label: "Contact", link: "#contact" },
 ];
 const Menu = () => {
   return (

@@ -29,7 +29,7 @@ const HeroIntro = () => {
           <p>Ulaanbaatar, Mongolia</p>
         </div>
         <div className="flex items-center">
-          <GoDotFill />
+          <GoDotFill className="text-green-500" />
           <p>Шинэ төсөл, шинэ ажилд ороход бэлэн</p>
         </div>
       </div>

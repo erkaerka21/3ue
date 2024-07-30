@@ -4,8 +4,12 @@ import AboutMeText from "./aboutme-text";
 
 const SectionAboutme = () => {
   return (
-    <div className="grid grid-cols-1 content-center justify-items-center px-20 py-24 bg-gray-100">
-      <TitlesContainer sTitle={"About me"} />
+    <div
+      className="grid grid-cols-1 content-center justify-items-center px-20 py-24 bg-gray-100"
+      id="about"
+    >
+      <labelTag label="about" />
+      <TitlesContainer sTitle={"About me"} sP={""} />
       <div className="flex items-center justify-between gap-x-64">
         <AboutMeAside />
         <AboutMeText />

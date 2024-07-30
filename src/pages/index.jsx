@@ -6,7 +6,7 @@ import SectionExperiences from "@/components/section-experiences/section-experie
 import FeedbackSection from "@/components/section-feedback/feedbacksection";
 import SectionSkill from "@/components/section-skills/sectionSkill";
 import WorkSection from "@/components/work-section/workSection";
-
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <main className="flex-col items-center">
