@@ -5,12 +5,12 @@ import AboutMeText from "./aboutme-text";
 const SectionAboutUvuu = () => {
   return (
     <div
-      className="grid grid-cols-1 content-center justify-items-center px-20 py-12 bg-gray-100"
+      className=" grid grid-cols-1 content-center justify-items-center px-20 py-12 bg-gray-100"
       id="uvuu"
     >
       <labelTag label="about" />
       <TitlesContainer sTitle={"Эцэг өвөө"} sP={""} />
-      <div className="flex items-center justify-between gap-x-64">
+      <div className="max-sm:flex-col flex items-center justify-between gap-x-64">
         <AboutMeAside />
         <AboutMeText />
       </div>
